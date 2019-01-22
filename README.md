@@ -38,7 +38,7 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
 9. Navigate into that project by typing `cd cep-engr-app`.
 10. Open up the project with your editor.
 
-## Instructions
+## Core Instructions
 
  For an example project, check out example.gif in the root directory.
 
@@ -54,6 +54,12 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
  - Using jQuery, as the user clicks on the button, reveal the appropriate information using the values from the JS object
 
  Feel free to take creative license however you want! The point of the exercise is to get a sense that you know the basics of HTML, CSS, and JS, but your page does not need to look like the example.
+
+## Attempt to Complete at Least 1 Item Below:
+
+- Publish your website using github pages:
+- Extend your design to make it as stylish as possible:
+- Pull in data from a public api:
 
 ## Finishing up
 
