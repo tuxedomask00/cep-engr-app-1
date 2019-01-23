@@ -1,6 +1,6 @@
 # Career Exploration Program - 2019 Software Engineering Application Project
 
-Welcome to the application for the CEP Software Engineer track! In this app, you'll create a simple "About Me" app using [HTML](https://websitesetup.org/HTML5-cheat-sheet.pdf), [CSS](https://makeawebsitehub.com/css3-mega-cheat-sheet/), and [JavaScript](https://www.cheatography.com/davechild/cheat-sheets/javascript/) / [jQuery](https://oscarotero.com/jquery/).
+Welcome to the application for the CEP Software Engineer track! In this assignment, you'll create a simple "About Me" app using [HTML](https://websitesetup.org/HTML5-cheat-sheet.pdf), [CSS](https://makeawebsitehub.com/css3-mega-cheat-sheet/), and [JavaScript](https://www.cheatography.com/davechild/cheat-sheets/javascript/) / [jQuery](https://oscarotero.com/jquery/).
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ To complete the application and submit it, follow the instructions below.
 
 ### Creating your Github account
 
-To get started, go to [Github.com](www.github.com) and sign up for an account. If you're unfamiliar with Github, it may be worthwhile to checkout this short [article](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/) to familiarize yourself with some of the terminology.
+To get started, go to [Github.com](www.github.com) and sign up for an account. If you're unfamiliar with Github, it may be worthwhile to check out this short [article](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/) to familiarize yourself with some of the terminology.
 
 This is where you will store your finished application. When you're done with the project, you will submit the link to your repo.
 
@@ -62,7 +62,8 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
   1. Find and signup for a free api. [List of Public Api's](https://github.com/toddmotto/public-apis)
   2. Using [Ajax](https://www.tutorialspoint.com/jquery/jquery-ajax.htm) or the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) successfully pull in [json](https://beginnersbook.com/2015/04/json-tutorial/) data to your project.
   3. Using javascript or jQuery, render the data to the page in a user friendly interface.
-  - HINT - Not all API's are easy to work with or even functional .
+  - HINT - Not all API's are easy to work with or even functional.
+  - HINT - Only work with API's that have CORS (Cross-origin Resource Sharing) enabled.
 - Extend your design to make it as stylish as possible:
   - Draw inspiration from your favorite websites or visit [awwards](https://www.awwwards.com/) to get inspired.
   - Find a fun or interactive [jQuery plugin](https://www.jqueryscript.net/jquery-plugins/) and implement it.
