@@ -1,6 +1,6 @@
 # Career Exploration Program - 2019 Software Engineering Application Project
 
-Welcome to the application for the CEP Software Engineer track! In this app, you'll create a simple "About Me" app using HTML, CSS, and JavaScript.
+Welcome to the application for the CEP Software Engineer track! In this app, you'll create a simple "About Me" app using [HTML](https://websitesetup.org/HTML5-cheat-sheet.pdf), [CSS](https://makeawebsitehub.com/css3-mega-cheat-sheet/), and [JavaScript](https://www.cheatography.com/davechild/cheat-sheets/javascript/) / [jQuery](https://oscarotero.com/jquery/).
 
 ## Getting Started
 
@@ -24,13 +24,13 @@ All *Windows* users will need to download [bash](https://git-scm.com/download/wi
 
 You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-app).
 
-1. Open up your terminal. You can do this with command + space bar and then type in 'terminal'.
+1. Open up your terminal/bash. For Mac can do this with command + space bar and then type 'terminal'. For Windows press the windows key and type 'bash'.
 2. You can find out the location of your current working directory by typing in `pwd`.
 3. Let's create a new directory to store your coding projects in. Type in `mkdir Projects`.
 4. Type in `ls` and you will see that a new directory called 'Projects' was created.
 5. Switch into that directory by typing in `cd Projects`.
 6. If you type in `ls` again, you'll notice that the folder is empty.
-7. Let's add our first repo to the Projects directory. Navigate to the [repo](https://github.com/ideascomealive/cep-engr-app).
+7. Let's add our first repo to the Projects directory. Navigate to the [repo](https://github.com/ideascomealive/cep-engr-app) in your browser.
 8. In the top right corner, click on the button that says "Fork" and then select your github.
 9. Click on the green button that says "Clone or download" and copy the link.
 10. On the command line, type in `git clone INSERT LINK` replacing the `INSERT LINK` with the link you just copied.
@@ -55,17 +55,24 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
 
  Feel free to take creative license however you want! The point of the exercise is to get a sense that you know the basics of HTML, CSS, and JS, but your page does not need to look like the example.
 
-## Attempt to Complete at Least 1 Item Below:
+## Attempt to Complete at Least 1 Challenge Below:
 
-- Publish your website using github pages:
-- Extend your design to make it as stylish as possible:
+- Publish your website using github pages. [Github Pages](https://pages.github.com/)
 - Pull in data from a public api:
+  1. Find and signup for a free api. [List of Public Api's](https://github.com/toddmotto/public-apis)
+  2. Using Ajax or the Fetch API successfully pull in json data to your project.
+  3. Using javascript or jQuery, render the data to the page in a user friendly interface.
+  - HINT - Not all API's are easy to work with or even functional.
+- Extend your design to make it as stylish as possible:
+  - Draw inspiration from your favorite websites or visit awwards to get inspired.
+  - Find a fun or interactive jQuery plugin and implement it.
+  - Think outside the box and push yourself to do something eye catching.
 
 ## Finishing up
 
- Once you've completed the above instructions, you'll need to push up your work to your repo!
+ Once you've completed the above core instructions, you'll need to push up your work to your github repo!
 
- - On the command line, type in `git status`. You'll see all of the files that you have created or changed.
+ - On the terminal/bash, type in `git status`. You'll see all of the files that you have created or changed.
  - Type in `git add .` to add all of those files to your commit.
  - Type in `git commit -m "MESSAGE"` replacing `MESSAGE` with your commit message.
  - Type in `git push origin master` to push up all of your work.
