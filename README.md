@@ -36,7 +36,7 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
 10. On the command line, type in `git clone INSERT LINK` replacing the `INSERT LINK` with the link you just copied.
 8. Once it's downloaded, if you type in `ls` again, you'll notice that your project was added to the directory.
 9. Navigate into that project by typing `cd cep-engr-app`.
-10. Open up the project with your editor.
+10. Open up the project with your code editor.
 
 ## Core Instructions
 
@@ -60,13 +60,13 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
 - Publish your website using github pages. [Github Pages](https://pages.github.com/)
 - Pull in data from a public api:
   1. Find and signup for a free api. [List of Public Api's](https://github.com/toddmotto/public-apis)
-  2. Using Ajax or the Fetch API successfully pull in json data to your project.
+  2. Using [Ajax](https://www.tutorialspoint.com/jquery/jquery-ajax.htm) or the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) successfully pull in [json](https://beginnersbook.com/2015/04/json-tutorial/) data to your project.
   3. Using javascript or jQuery, render the data to the page in a user friendly interface.
-  - HINT - Not all API's are easy to work with or even functional.
+  - HINT - Not all API's are easy to work with or even functional .
 - Extend your design to make it as stylish as possible:
-  - Draw inspiration from your favorite websites or visit awwards to get inspired.
-  - Find a fun or interactive jQuery plugin and implement it.
-  - Think outside the box and push yourself to do something eye catching.
+  - Draw inspiration from your favorite websites or visit [awwards](https://www.awwwards.com/) to get inspired.
+  - Find a fun or interactive [jQuery plugin](https://www.jqueryscript.net/jquery-plugins/) and implement it.
+  - Think outside the box and push yourself to build something eye catching, interactive and fun.
 
 ## Finishing up
 
@@ -77,15 +77,16 @@ You will need to clone this [repo](https://github.com/ideascomealive/cep-engr-ap
  - Type in `git commit -m "MESSAGE"` replacing `MESSAGE` with your commit message.
  - Type in `git push origin master` to push up all of your work.
 
-### Resources
+## Resources
 
-#### HTML & CSS
+### HTML & CSS
 [Codecademy course](https://www.codecademy.com/catalog/language/html-css)
 [HTML Essential Training](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3ahtml%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
 
-#### JavaScript
+### JavaScript
 [Codecademy course](https://www.codecademy.com/catalog/language/javascript)
 [JavaScript Essential Training](https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/574716-2.html?srchtrk=index%3a9%0alinktypeid%3a2%0aq%3abeginner+web+development%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
+[Learn jQuery](https://learn.jquery.com/)
 
-### Support
-Please join the #cep-engr-2018 Slack channel. If you get stuck with any of the pre-work, feel free to reach out here. This channel has your fellow cohort mates, as well as current engineers who are happy to help you get unstuck.
+## Support
+Please join the #cep-engr-2019 Slack channel. If you get stuck with any of the pre-work, feel free to reach out here. This channel has your fellow cohort mates, as well as current engineers who are happy to help you get unstuck.
