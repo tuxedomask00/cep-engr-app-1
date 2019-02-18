@@ -20,8 +20,6 @@ body {
   margin: 0;
 
   color: rgb(0,0,0);
-  font-family: "Monserrat", sans-serif;
-  font-style: thin;
   text-align: center;
 }
 
@@ -73,7 +71,7 @@ h3{
 
 .personal-data {
   margin: 20px auto;
-  padding: 10px 0;
+  padding: 20px 0;
 
   border-bottom: 1px solid rgb(0,0,0);
 
