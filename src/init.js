@@ -5,7 +5,7 @@ var personalData = {
   lastName: "Burhan",
   jobTitle: "Engagement Manager",
   homeOffice: "London",
-  tellMeMore:"<span style='color: rgb(240, 72, 136)'>Hey!</span> I am originally from Indonesia. I lived in Australia for 16 years before moving to London in 2016. <span style= color: rgb(240, 72, 136)'> 2 Truths and 1 Lie about me: </span>I am 4 foot 10, which makes me the shortest person over the age of 9 in the whole of Europe!, I am short sighted and once stepped over a snake (mistaking it for a twig) and did not get hurt, I represented Australia in the Women's Olympics 4 x 100m freestyle swim relay"
+  tellMeMore:"<span style='color: rgb(240, 72, 136)'>Hey!</span> I am originally from Indonesia. I lived in Australia for 16 years before moving to London in 2016. My favourite Beatle is George Harrison.<br> <br> <span style='color: rgb(240, 72, 136)'> 2 Truths and 1 Lie about me:<br> <br>   </span>I am 4 foot 10, which makes me the shortest person over the age of 9 in the whole of Europe!  <br><br>  I am short sighted and once stepped over a snake (mistaking it for a twig) and did not get hurt. <br><br> I represented Australia in the Women's Olympics 4 x 100m freestyle swim relay"
 }
 
 // using jQuery and the object above, display the information as the appropriate button is clicked
