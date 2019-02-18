@@ -11,14 +11,15 @@
   font-family: "Montserrat";
   font-weight: 400;
   font-style: normal, thin;
-
+  
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 body {
   margin: 0;
-
+  font-family: "Montserrat", sans-serif;
+  font-style: thin;
   color: rgb(0,0,0);
   text-align: center;
 }
@@ -31,19 +32,15 @@ header {
   position: absolute;
   left: 50%;
   bottom: 54%;
-
   padding: 5px;
-
   color: rgb(255, 255, 255);
   font-family: "Sacramento", cursive;
   font-size: 64pt;
-
   transform: translateX(-50%);
 }
 
 .social-links {
   padding-left: 0;
-
   list-style-type: none;
 }
 
@@ -55,24 +52,16 @@ h1 {
   font-size: 48px;
 }
 
-h2 {
-  font-weight: normal;
-  font-style: italic;
-}
-
 h3{
   margin-bottom: 0.2em;
 
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-style: thin;
   text-transform: uppercase;
 }
 
 .personal-data {
   margin: 20px auto;
-  padding: 20px 0;
-
+  padding: 10px 0;
   border-bottom: 1px solid rgb(0,0,0);
 
 }
@@ -80,53 +69,41 @@ h3{
 .btn {
   margin: 10px;
   padding: 0.5em;
-
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-style: thin;
-
   border: 1px solid rgb(0,0,0);
 }
 
 .btn-fname {
   color: rgb(0,0,0);
-
   background: rgb(255, 255, 255);
 }
 
 .btn-lname {
   color: rgb(0,0,0);
-
   background: rgb(255, 255, 255);
 }
 
 .btn-jobtitle {
   color: rgb(0,0,0);
-
   background: rgb(255, 255, 255);
 }
 
 .btn-homeoffice {
   color: rgb(0,0,0);
-
   background: rgb(255, 255, 255);
 }
 
 .btn-tellmemore {
   color: rgb(0,0,0);
-
   background: rgb(255, 255, 255);
 }
 
 .my-details {
   position: relative;
-
   max-width: 480px;
   margin: 10px auto;
   padding: 20px;
-
   border-radius: 12px;
-
   transition: 500ms background-color, 500ms color;
 }
 
@@ -134,27 +111,21 @@ h3{
   position: absolute;
   right: 5px;
   top: 5px;
-
   display: none;
   cursor: pointer;
-
   color: rgb(240, 72, 136);
 }
 
 .btn-dogpics {
   color: rgb(0,0,0);
-
   background: rgb(255, 255, 255);
 }
 
 .dogpic-container {
   display: block;
-
   margin: 20px auto;
-
   border: 0;
   border-radius: 50%;
-
   outline: none;
 }
 
@@ -171,17 +142,13 @@ h3{
 
 .img-mypicture{
   display: none;
-
   max-width: 400px;
   margin: 10px 0;
 }
 
 footer p{
   margin-bottom: 0.2em;
-
-  font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  font-style: thin;
   text-transform: uppercase;
 }
 
