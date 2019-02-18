@@ -1,13 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CEP Engineering Application</title>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>HomeAway CEP 2019 Application</title>
+    <!-- bootstrap styling and jquery library from cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  </head>
-  <body>
-    // All of your HTML goes here.
-    <script src="init.js"></script>
-  </body>
+    </head>
+<body>
+
+<!-- Header including banner image & time of day greeting -->
+<header>
+  <h1><img src="images/Osaka.JPG" class="img-fluid" alt = "Black and white banner image of a drugstore in Osaka, Japan"></h1>
+  <h2 id="greetings" class="greetings"></h2>
+</header>
+
+<!-- Buttons -->
+<div class="personal-data">
+  <button class="btn btn-data btn-fname">First Name</button>
+  <button class="btn btn-data btn-lname">Last Name</button>
+  <button class="btn btn-data btn-jobtitle">Job Title</button>
+  <button class="btn btn-data btn-homeoffice">Home Office</button>
+  <button class="btn btn-data btn-tellmemore">Tell Me More</button>
+  <div class="my-details">
+    <h3 class="my-details-text">My Details will be shown here</h3>
+    <img class="img-fluid img-mypicture" src="images/Me.jpg" alt= "Black and white photo of page owner in Gili Meno, Indonesia">
+    <i class="fa fa-fw fa-close close-button"></i>
+  </div>
+</div>
+
+<!-- Public API of random dog pictures -->
+<div class="dogpics">
+  <button class="btn btn-dogpics">More Dogs Please</button>
+  <div class="dogpic-container">
+    <video class="dogvid" name="media" playsinline muted autoplay loop>
+      <source class="dogvid-source" src="https://random.dog/750d5096-fd59-4a00-9e55-2f0204abf53d.mp4" type="video/mp4">
+    </video>
+    <img class="dogpic" src="https://i.imgur.com/ZSoq2wT.jpg">
+  </div>
+</div>
+
+<!-- Photo credits footer -->
+<footer class="mastfoot mt-auto">
+  <div class="inner">
+  <p>Photo Credits: My boyfriend, Rui Faria and Imgur</p>
+  <p>This page is created as part of CEP Software Engineer 2019 Application</p>
+  <p>&copy; Cindy Burhan</p>
+
+<!-- Social media links-->
+  <ul class="social-links">
+    <li><a class="fa fa-lg fa-linkedin" href="https://www.linkedin.com/in/cindy-burhan-89926a130/" target="_blank"></a></li>
+    <li><a class="fa fa-lg fa-instagram" href="https://www.instagram.com/gogopowerrangers_/" target="_blank"></a></li>
+  </ul>
+  </div>
+</footer>
+
+<!-- Link to scripts for buttons, random dog pictures public api and time of day greetings -->
+<script src="init.js"></script>
+
+</body>
 </html>
